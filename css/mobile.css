@@ -1,0 +1,140 @@
+@media (max-width: 600px) {
+  .container,
+  .certificate-container {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
+    max-width: 400px !important;
+    justify-content: center !important;
+  }
+
+  #personal-info {
+    margin-left: 0;
+  }
+  #about p {
+    margin-top: 18px !important;
+  }
+  .info {
+    margin-top: 18px !important;
+  }
+  /* banner */
+  .banner-content h1 {
+    font-size: 32px;
+  }
+  /* about */
+
+  /* navbar */
+  .nav-item {
+    padding: 0;
+  }
+  .nav-info {
+    display: none;
+  }
+  .nav-item:first-child {
+    padding-top: 10px;
+  }
+  .nav-item:last-child {
+    padding-bottom: 10px;
+  }
+  /* Dự án */
+  #project img {
+    height: 200px;
+  }
+  #project .container {
+    gap: 12px;
+    padding: 30px 20px;
+    width: 100%;
+  }
+  #project table {
+    font-size: 12px;
+  }
+  #project .project-item {
+    font-size: 12px;
+  }
+  #project .project-title {
+    font-size: 16px;
+  }
+  /* certificate */
+  #certificate .certificate-item {
+    justify-self: center;
+  }
+  .column-border {
+    border-right: none;
+  }
+  /* reset thu tu cua certificate*/
+  #certificate .certificate-item:first-child {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+  }
+  #certificate .certificate-item:nth-child(2) {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+  }
+  #certificate .certificate-item:nth-child(3) {
+    display: none;
+  }
+  #certificate .certificate-item:nth-child(4) {
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 1;
+  }
+  #certificate .certificate-item:nth-child(5) {
+    grid-row: 5 / span 1;
+    grid-column: 1 / span 1;
+  }
+  #certificate .certificate-item:nth-child(6) {
+    grid-row: 6 / span 1;
+    grid-column: 1 / span 1;
+  }
+  #certificate .certificate-item:nth-child(7) {
+    grid-row: 7 / span 1;
+    grid-column: 1 / span 1;
+  }
+  #certificate .certificate-item:nth-child(8) {
+    grid-row: 8 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  .row-border,
+  .column-tablet-border {
+    display: none;
+  }
+  #certificate .certificate-item:nth-child(2),
+  #certificate .certificate-item:nth-child(5) {
+    border-bottom: 2px solid #d6c08d;
+    padding-bottom: 24px;
+  }
+  #certificate img {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .column-tablet-border {
+    display: block;
+    grid-row: 1 / span 2;
+  }
+  /* Job infor */
+  #job-info .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+  }
+  .experience:first-child {
+    grid-row: 1 / span 1;
+  }
+  .experience:nth-child(2) {
+    grid-row: 2 / span 1;
+  }
+  .experience:nth-child(3) {
+    grid-row: 3 / span 1;
+    align-self: flex-start;
+  }
+  .experience:nth-child(4) {
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 1;
+  }
+  .experience:nth-child(5) {
+    grid-row: 5 / span 1;
+  }
+  .experience:nth-child(6) {
+    grid-row: 6 / span 1;
+  }
+}

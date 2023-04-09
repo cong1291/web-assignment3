@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #495057;
+}
+.container {
+  width: 1170px;
+}
+.goals,
+.team {
+  height: 600px;
+}
+.scopes,
+.primary {
+  height: 400px;
+}
+.timeline {
+  height: 1018px;
+}
+/* nav */
+.navbar-brand {
+  margin-left: 100px;
+}
+/* Goal */
+
+.goals i,
+.team i,
+.primary i {
+  font-size: 36px;
+  padding: 0 24px;
+}
+.flags,
+.primary-icon,
+.team-icon {
+  align-self: center;
+}
+.goals h3,
+.team h3,
+.timeline h3 {
+  font-size: 16px;
+}
+.goals h2,
+.team h2,
+.timeline h2,
+.primary h2,
+.scopes h2 {
+  font-size: 24px;
+}
+.card-end {
+  height: 100px;
+}
+/* Scope */
+.scopes-content {
+  padding-top: 16px;
+}
+/* Timeline */
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #212529;
+  background-color: #9775fa;
+  font-size: 24px;
+  border-radius: 50%;
+  margin-right: 24px;
+  color: #fff;
+  position: relative;
+}
+.number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.timeline p {
+  margin-bottom: 0;
+}
+.timeline .card-body {
+  border-bottom: 1px dashed #099268;
+}
+/* Mobile */
+@media (max-width: 768px) {
+  .team,
+  .goals {
+    height: 800px !important;
+  }
+  .scopes {
+    height: 500px !important;
+  }
+}
