@@ -35,10 +35,6 @@
   .nav-item:last-child {
     padding-bottom: 10px;
   }
-  #nav-bar .container {
-    align-items: flex-start;
-    margin-left: 30%;
-  }
   /* Dự án */
   #project img {
     height: 200px;
