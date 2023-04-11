@@ -81,7 +81,7 @@ body {
 .timeline .card-body {
   border-bottom: 1px dashed #099268;
 }
-/* Mobile */
+/* Tablet*/
 @media (max-width: 768px) {
   .team,
   .goals {
@@ -89,5 +89,44 @@ body {
   }
   .scopes {
     height: 500px !important;
+  }
+  .col-md-6 {
+    width: 100% !important;
+  }
+  .col-md-3 {
+    width: 100% !important;
+  }
+
+  .row .flex-md-row {
+    flex-direction: column !important;
+  }
+  .team h3 {
+    text-align: center;
+  }
+  p {
+    font-size: 18px;
+  }
+  .goals h2,
+  .team h2,
+  .timeline h2,
+  .scopes h2 {
+    font-size: 32px;
+  }
+  .goals h3,
+  .team h3,
+  .timeline h3 {
+    font-size: 28px;
+  }
+  .scopes h4 {
+    font-size: 28px;
+  }
+  .timeline {
+    height: 1200px;
+  }
+}
+@media (max-width: 500px) {
+  .goals,
+  .team {
+    height: 900px !important;
   }
 }
